@@ -6,7 +6,7 @@
   <link href="http://achao51.github.io/atom.xml" rel="self"/>
   
   <link href="http://achao51.github.io/"/>
-  <updated>2020-08-22T09:53:17.378Z</updated>
+  <updated>2020-08-24T09:26:11.012Z</updated>
   <id>http://achao51.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo更换主题</title>
+    <link href="http://achao51.github.io/2020/08/24/Hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/"/>
+    <id>http://achao51.github.io/2020/08/24/Hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/</id>
+    <published>2020-08-24T09:09:58.000Z</published>
+    <updated>2020-08-24T09:26:11.012Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="更换hexo主题，提示："><a href="#更换hexo主题，提示：" class="headerlink" title="更换hexo主题，提示："></a>更换hexo主题，提示：</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">extends includes/layout.pug block content <span class="comment">#recent-posts.recent-posts include includes/recent-posts.pug include includes/pagination.pug </span></span><br></pre></td></tr></table></figure><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><h3 id="1、打开Hexo所在目录打开git-bash-输入命令："><a href="#1、打开Hexo所在目录打开git-bash-输入命令：" class="headerlink" title="1、打开Hexo所在目录打开git bash,输入命令："></a>1、打开Hexo所在目录打开git bash,输入命令：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br></pre></td></tr></table></figure><h3 id="2、清除缓存"><a href="#2、清除缓存" class="headerlink" title="2、清除缓存"></a>2、清除缓存</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><h3 id="3、生成静态文件，查看效果"><a href="#3、生成静态文件，查看效果" class="headerlink" title="3、生成静态文件，查看效果"></a>3、生成静态文件，查看效果</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexp s</span><br></pre></td></tr></table></figure><h3 id="4、重新推送到gitHub"><a href="#4、重新推送到gitHub" class="headerlink" title="4、重新推送到gitHub"></a>4、重新推送到gitHub</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;h3 id=&quot;更换hexo主题，提示：&quot;&gt;&lt;a href=&quot;#更换hexo主题，提示：&quot; class=&quot;headerlink&quot; title=&quot;更</summary>
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="http://achao51.github.io/tags/Hexo/"/>
+    
+    <category term="主题" scheme="http://achao51.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>GitHub个人主页404</title>
@@ -30,39 +54,6 @@
       
     <summary type="html">&lt;p&gt;解决方法：必须要readme.md文件。&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>My First Post</title>
-    <link href="http://achao51.github.io/2020/08/22/My-First-Post/"/>
-    <id>http://achao51.github.io/2020/08/22/My-First-Post/</id>
-    <published>2020-08-22T09:25:43.000Z</published>
-    <updated>2020-08-22T09:25:43.750Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://achao51.github.io/2020/08/22/hello-world/"/>
-    <id>http://achao51.github.io/2020/08/22/hello-world/</id>
-    <published>2020-08-22T09:20:29.803Z</published>
-    <updated>2020-08-22T09:20:29.803Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
       
     
     

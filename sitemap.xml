@@ -2,21 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://achao51.github.io/2020/08/24/Hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/</loc>
+    
+    <lastmod>2020-08-24</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://achao51.github.io/2020/08/22/GitHub%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5404/</loc>
-    
-    <lastmod>2020-08-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://achao51.github.io/2020/08/22/My-First-Post/</loc>
-    
-    <lastmod>2020-08-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://achao51.github.io/2020/08/22/hello-world/</loc>
     
     <lastmod>2020-08-22</lastmod>
     
@@ -30,6 +23,20 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://achao51.github.io/tags/Hexo/</loc>
+    <lastmod>2020-08-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://achao51.github.io/tags/%E4%B8%BB%E9%A2%98/</loc>
+    <lastmod>2020-08-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 
   
